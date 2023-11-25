@@ -1,0 +1,337 @@
+
+/* css boilerplate start */
+
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+   
+}
+
+html,body{
+    width: 100%;
+    height: 100%;
+    padding-top: 40px;
+    
+}
+
+*::selection{
+    background-color: blue;
+    color: white;
+}
+/* css boilerplate end */
+
+
+/* Normal Css */
+
+#navbar{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: 100px;
+    /* border: 1px solid black; */
+    align-items: center;
+padding: 0px 80px;
+font-size: medium;
+font-weight: 400;
+box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+position: fixed;
+top: 0px;
+background-color: white;
+z-index: 9999;
+
+}
+
+#mid_nav>img{
+    color: black;
+}
+
+
+
+.img_1{
+    max-width: 100%;
+height: calc(50% - 100px);
+}
+
+#heroImage h1{
+    display: block;
+    position: absolute;
+    color: white;
+    top: 160px;
+   right: 50%;
+   transform: translate(50%,0%);
+   letter-spacing: 1px;
+   font-size: 33px;
+margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+
+#traveldetail{
+    display: flex;
+    position: absolute;
+    top: 210px;
+    right: 50%;
+    transform: translate(46%,0%);
+}
+.travel_from{
+    width: 230px;
+    height: 120px;
+    border: 0.1px solid rgba(41, 39, 39, 0.332);
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 24px;
+    border-top-left-radius: 20px;
+    background-color: white;
+   
+}
+.travel_to {
+    width: 230px;
+    height: 120px;
+/* border: 0.1px solid rgba(41, 39, 39, 0.332); */
+display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 24px; display: flex;
+        justify-content: center;
+        align-items: center;
+        
+            background-color: white;
+}
+.travel_date {
+    width: 230px;
+    height: 120px;
+border: 0.1px solid rgba(171, 150, 150, 0.434);
+    display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 24px;
+       
+            background-color: white;
+}
+
+.travel_search {
+    width: 230px;
+    height: 120px;
+    /* border: 0.1px solid rgba(171, 150, 150, 0.434); */
+    border-right: 0.1px solid white;
+    background-color: #D64D54;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 24px;
+border-top-right-radius: 25px;
+border-bottom-right-radius: 25px;
+    color: white;
+}
+
+
+#traveldetail img{
+    position: absolute;
+    right: 72.5%;
+}
+
+#trandingOffer{
+    width: 80%;
+    height: 350px;
+    /* border: 1px solid black; */
+    border-radius: 20px;
+    
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    position: absolute;
+    top: 450px;
+    background-color: white;
+    left: 50%;
+    transform: translate(-50%,0);
+    /* overflow-x: auto; */
+    /* overflow-y: hidden; */
+  
+   
+}
+#trandingOffer__card{
+    width: 95%;
+    height: 220px;
+    /* border: 1px solid red; */
+   margin-top: 100px;
+ margin-left: 20px;
+overflow-x: auto;
+white-space: nowrap;
+}
+
+#trandingOffer__card::-webkit-scrollbar{
+    display: none;
+}
+#trandingOffer p{
+    text-transform: uppercase;
+    font-size: 30px;
+    color: #4A4A4A;
+    position: absolute;
+    top: 50px;
+    left: 30px;
+    
+}
+.trad_offer button {
+    /* text-transform: uppercase; */
+    font-size: 20px;
+    color: #4A4A4A;
+    position: absolute;
+    border-radius: 20px;
+    top: 50px;
+    border: 1px solid #4A4A4A;
+    right: 30px;
+    color: blue;
+    padding: 5px 15px;
+
+}
+
+#trandingOffer .card{
+ width: 25%;
+ height: 180px;
+ border: 1px solid black;
+ margin-top: 20px;
+ position: relative;
+ left: 20px;
+ margin-left: 20px;
+display: inline-block;
+}
+
+#referal__point img{
+    position: relative;
+    top: 250px;
+    left: 15%;
+
+}
+
+
+
+#GetAllTickets{
+    position: relative;
+    top: 300px;
+    width: 80%;
+    height: 700px;
+    /* border: 1px solid black; */
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 50px;
+}
+.left{
+    
+    width: 45%;
+    height: 650px;
+    /* border: 1px solid red; */
+ padding: 32px 0px;
+}
+
+.left p{
+    font-size: 40px;
+    font-weight: 100px;
+    font-family: Montserrat;
+    
+}
+#left__category{
+    display: flex;
+    justify-content: space-around;
+    border-bottom: 1px solid #4A4A4A;
+    margin: 0px 15px;
+}
+#left__category a:nth-child(1){
+    border-right: 1px solid #4A4A4A;
+    padding: 0px 15px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+   height: 20px;
+}
+.right {
+    width: 55%;
+    height: 650px;
+    /* border: 1px solid red; */
+   
+}
+
+#QrDetails{
+    width: 70%;
+    height: 400px;
+    border: 1px solid red;
+    position: relative;
+    top: 320px;
+    left: 12%;
+    border-radius: 25px;
+    background-color: #C25858;
+    color: white;
+    font-family: Montserrat;
+    
+}
+.QrDetails__part{
+    display: flex;
+  
+
+}
+#QrDetails h3{
+    letter-spacing: 2px;
+    padding: 40px 30px 10px 30px;
+    font-size: 35px;
+    font-weight: 550;
+}
+.QrDetails__left{
+    width: 40%;
+    height: 250px;
+    /* border: 1px solid red; */
+    margin-left: 25px;
+    margin-top: 20px;
+    background-color: white;
+    color: black;
+    border-radius: 20px;
+   
+}
+.QrDetails__right {
+    width: 40%;
+    height: 250px;
+    /* border: 1px solid red; */
+    margin-left: 30px;
+    margin-top: 20px;
+    padding: 20px;
+    color:white;
+    border-radius: 20px;
+    display: flex;
+    gap: 80px;
+    line-height: 1.5;
+}
+.QrDetails__left--part1{
+display: flex;
+padding: 30px 10px;
+gap: 5px;
+}
+.QrDetails__left--part2{
+    display: flex;
+    padding: 10px 10px;
+    gap: 5px;
+}
+.QrDetails__left--part{
+    display: flex;
+}
+.QrDetails__left--part3{
+    margin-top: 30px;
+    width: 50%;
+    height: 80px;
+    padding: 0px 5px 0px 40px ;
+    border-right: 1px solid #C1C1C1;
+}
+.QrDetails__left--part4{
+    margin-top: 30px;
+    width: 50%;
+    height: 80px;
+    padding: 0px 5px 0px 30px;
+    /* border-right: 1px solid #4A4A4A; */
+}
+
+#footer{
+    width: 90%;
+    height: 650px;
+    /* border: 1px solid black; */
+    position: relative;
+    top: 350px;
+    left: 5%;
+}
